@@ -69,10 +69,10 @@ public class MainApp extends Application {
         try {
             // load design
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(MainApp.class.getResource("oic/ref/view/WelcomeScreen.fxml"));
+            loader.setLocation(MainApp.class.getResource("oic/ref/view/design/selectionScene.fxml"));
             // set welcome screen
             AnchorPane welcome = (AnchorPane) loader.load();
-            rootLayout.setCenter(welcome);
+           rootLayout.setCenter(welcome);
         } catch (IOException e) {
             e.printStackTrace();;
         }
