@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.web.WebView?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0">
+         <image>
+            <Image url="@BG.JPG" />
+         </image>
+      </ImageView>
+      <VBox layoutX="33.0" layoutY="117.0" opacity="0.8" prefHeight="446.0" prefWidth="254.0" style="-fx-background-color: white; -fx-alignment: top-center;">
+         <children>
+            <Hyperlink text="Hello World">
+               <font>
+                  <Font name="Verdana" size="18.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink text="Comments">
+               <font>
+                  <Font name="Verdana" size="18.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink text="Declaration">
+               <font>
+                  <Font name="Verdana" size="18.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink text="Classes">
+               <font>
+                  <Font name="Verdana" size="18.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink text="Initialization">
+               <font>
+                  <Font name="Verdana" size="18.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink text="Expressions">
+               <font>
+                  <Font name="Verdana" size="18.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink text="Functions">
+               <font>
+                  <Font name="Verdana" size="18.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink text="Exceptions">
+               <font>
+                  <Font name="Verdana" size="18.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink text="Statements">
+               <font>
+                  <Font name="Verdana" size="18.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink text="Templates">
+               <font>
+                  <Font name="Verdana" size="18.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink text="Preprocessor">
+               <font>
+                  <Font name="Verdana" size="18.0" />
+               </font>
+            </Hyperlink>
+         </children></VBox>
+      <WebView layoutX="328.0" layoutY="117.0" opacity="0.8" prefHeight="446.0" prefWidth="434.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#186ea4" height="56.0" opacity="0.9" stroke="WHITE" strokeType="INSIDE" width="800.0" />
+      <Label layoutX="342.0" layoutY="130.0" text="The following program prints the text &quot;Hello World!&quot; &#10;to the standard output:&#10;&#10;#include &lt;iostream&gt;&#10;&#10;int main()&#10;{&#10;    std::cout &lt;&lt; &quot;Hello World!&quot; &lt;&lt; std::endl;&#10;    return 0;&#10;}">
+         <font>
+            <Font name="Verdana" size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="-51.0" layoutY="-70.0">
+         <image>
+            <Image url="@Ccccc.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="345.0" layoutY="-70.0">
+         <image>
+            <Image url="@back.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="608.0" layoutY="-70.0">
+         <image>
+            <Image url="@search.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="475.0" layoutY="-70.0">
+         <image>
+            <Image url="@out.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="415.0" layoutY="-70.0">
+         <image>
+            <Image url="@in.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
